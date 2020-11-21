@@ -1,0 +1,113 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#container{
+    min-height: 100vh;
+    display: flex;
+}
+.left{
+    width: 50vw;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)),url('backg3.jpeg');
+}
+.right{
+    width: 50vw;
+    background-color: cyan;
+    background-image: linear-gradient(to right,rgb(214, 211, 207),rgb(78, 119, 122) );
+}
+.box{
+    position: absolute;
+    top: 35%;
+    left: 8%;
+    height: 400px;
+    width: 640px;
+    color: white;
+    padding: 6px;
+    font-size: 31px;
+}
+.para{
+    font-size: 28px;
+    border: 2px solid grey;
+    padding: 6px;
+}
+#logo{
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    font-size: 40px;
+    font-weight: bolder;
+    width: 135px;
+    height: 50px;
+    border: 2px solid black;
+    padding: 3px;
+}
+#box{
+    position: absolute;
+    top: 28%;
+    left: 62%;
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    background-color: #d7dad3; 
+}
+#login{
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #555756; 
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+.name{
+    height: 50px;
+    padding: 8px;
+    margin: 17px;
+    font-size: 19px;
+    background-color: lightcyan;
+    color: black;
+    outline: none;
+}
+.user{
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+}
+#btn{
+    position: absolute;
+    top: 80%;
+    left: 12%;
+    font-size: 22px;
+    font-weight: 400;
+    cursor: pointer;
+    width: 380px;
+    height: 50px;
+    border-radius: 80px;
+    border: 1px solid black;
+    outline: none;
+    background-color: lightgray;
+    color: black;
+    transition-duration: 0.5s;
+}
+#btn a{
+    text-decoration: none;
+    color: black;
+}
+#btn:hover{
+    background-color: grey;
+    color: white;
+}
+a:hover{
+    color: white;
+}
+#forget{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px;
+    text-decoration: underline;
+    cursor: pointer;
+}

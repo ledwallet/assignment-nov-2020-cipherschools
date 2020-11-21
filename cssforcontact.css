@@ -1,0 +1,56 @@
+#contact{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)), url('./contact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 20px;
+    color: white;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.myInput{
+    outline: none;
+    width: 40%;
+    margin: 10px;
+    height: 33px;
+    border: 1.5px solid rgb(51, 4, 4);
+    padding: 27px;
+    border-radius: 10px;
+}
+.myText{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    outline: none;
+    margin: 10px;
+    padding: 10px;
+    border:  1.5px solid rgb(51, 4, 4);
+    border-radius: 10px;
+}
+.myBtn{
+    width: 30%;
+    outline: none;
+    height: 60px;
+    background-color: teal;
+    font-size: 20px;
+    margin-top: 55px;
+    color: white;
+    border:  1.5px solid rgb(51, 4, 4);
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 20px;
+}
+.myBtn:hover{
+    background-color: darkcyan;
+}

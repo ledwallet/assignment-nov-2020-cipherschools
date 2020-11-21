@@ -1,0 +1,22 @@
+#about{
+    height: 75vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url('./2.jpg');
+}
+#about h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+.box-about{
+    color: white;
+    width: 1650px;
+    height: 400px;
+    margin: 100px;
+    font-size: 22px;
+    padding: 12px;
+    text-align: center;
+}
+.box-about p{
+    font-weight: 500;
+}
